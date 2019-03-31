@@ -12,6 +12,8 @@
     <Methods/>
     <This/>
     <Computed/>
+    <Watchers/>
+    <Filters/>
   </div>
 </template>
 
@@ -27,6 +29,8 @@ import TwoWayBind from "./components/twoWayBind";
 import Methods from "./components/Methods";
 import This from "./components/this";
 import Computed from "./components/computed";
+import Watchers from "./components/watchers";
+import Filters from "./components/filters";
 
 export default {
   name: "App",
@@ -41,7 +45,9 @@ export default {
     TwoWayBind,
     Methods,
     This,
-    Computed
+    Computed,
+    Watchers,
+    Filters
   }
 };
 </script>
