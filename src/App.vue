@@ -14,6 +14,8 @@
     <Computed/>
     <Watchers/>
     <Filters/>
+    <Events/>
+    <Directives/>
   </div>
 </template>
 
@@ -31,6 +33,8 @@ import This from "./components/this";
 import Computed from "./components/computed";
 import Watchers from "./components/watchers";
 import Filters from "./components/filters";
+import Events from "./components/events";
+import Directives from "./components/directives";
 
 export default {
   name: "App",
@@ -47,7 +51,9 @@ export default {
     This,
     Computed,
     Watchers,
-    Filters
+    Filters,
+    Events,
+    Directives
   }
 };
 </script>
